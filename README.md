@@ -25,7 +25,7 @@ This GUI was specifically designed for Windows. However, in theory `tkinter` sho
 ## Todo list
 - [ ] Clean up code in `CircuitRender2.py` : classes `GridElement` and `CanvasElem` could actually be merged, much cleaner.
 - [x] Using Ctrl+Backspace should also remove consecutive spaces, this does not work with `wordstart` in `tkinter`
-- [z] Add shortcut to run the simulator with the current opened file, proposed: `<Ctrl-Return>`. 
+- [x] Add shortcut to run the simulator with the current opened file, proposed: `<Ctrl-Return>`. 
 - [ ] Allow for separate-window rendering of the circuit just like the simulator output, useful for very large circuits
 - [ ] Check for unsaved data during closing of the app, instead of generic warning now
 - [ ] Build user-friendly options menu in which text color codes can be changed
